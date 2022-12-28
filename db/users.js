@@ -6,6 +6,7 @@ const userSchema = new mongoose.Schema({
     contactNumber:Number,
     workType:String,
     workStatus:String,
+    otherWorkType:String,
     noOfYears:Number,
     password:String
 });
